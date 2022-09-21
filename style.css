@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rebeccapurple;
+}
+h2{
+    color: white;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding:40px;
+    position: fixed; /*sirve para que la barra de navegación se quede fija arriba*/
+    top:0; 
+    width: 100%;
+}
+
+nav .nav {
+    padding-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content:center;
+}
+
+nav .nav:hover {
+    color: rgb(255, 255, 255);
+    background-color:rgb(129, 65, 194);
+    transition: all 0.25s;
+}
+
